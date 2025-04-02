@@ -17,13 +17,11 @@ document.getElementById('submit').addEventListener('click', function () {
 
 	  // Function to clear all books
            
-
     // Clear input fields
     document.getElementById('title').value = '';
     document.getElementById('author').value = '';
     document.getElementById('isbn').value = '';
 	
-
 	
 });
 

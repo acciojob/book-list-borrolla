@@ -89,4 +89,21 @@
 	    background-color: #f44336;
 	    color: white-blue;
 	}
+.table-striped tbody tr:nth-of-type(odd) {
+            background-color: #f8f9fa; /* Light gray for odd rows */
+	        width: 50%;
+        }
+
+        .table-striped tbody tr:nth-of-type(even) {
+            background-color: #e0e0e0; /* Slightly darker gray for even rows */
+        }
+
+        .table tbody tr {
+            margin-bottom: 10px; /* Adds space between rows */
+        }
+
+        .table-striped tbody tr {
+            height: 50px; /* Increase row height */
+			width: 50%;
+        }
 	       
