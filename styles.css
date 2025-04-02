@@ -1,1 +1,92 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: white;
+        }
+        
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        
+        .book-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 10px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 2px;
+            font-weight: Normal;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+        }
+        
+        button {
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+        }
+        
+        .add-book {
+            background-color: blue;
+			border-block-color: skyblue;
+            color: white;
+        }
+        
+        .add-book:hover {
+            background-color: skyblue;
+			color: blue;
+        }
+    .add-book:after{
+		  background-color: grey;
+		  width:80%;
+	}
+
+        .table-striped {
+       margin-top: 10 0px;
+		
+     }
+
+	.delete-btn {
+	    background-color: #dc3545;
+	    color: #f44336;
+	    border: 1px solid #f44336;
+	    padding: 5px 10px;
+	    border-radius: 4px;
+	    cursor: pointer;
+	    transition: background-color 0.3s, color 0.3s;
+	}
+	
+	.delete-btn:hover {
+	    background-color: #f44336;
+	    color: white-blue;
+	}
+	       

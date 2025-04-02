@@ -7,6 +7,39 @@
 </head>
 
 <body>
+	<div class="container">
+        <h1 class="text-center mt-4">MyBookList</h1>
+        <div class="form-group">
+            <label for="title">Title</label>
+			<br>
+            <input type="text" id="title" class="form-control" placeholder="Enter book title">
+        </div>
+        <div class="form-group">
+            <label for="author">Author</label>
+			<br>
+            <input type="text" id="author" class="form-control" placeholder="Enter author name">
+        </div>
+        <div class="form-group">
+            <label for="isbn">ISBN#</label>
+			<br>
+            <input type="text" id="isbn" class="form-control" placeholder="Enter ISBN number">
+        </div>
+        <button id="submit" class="add-book btn btn-primary">Add Book</button>
+		<br>
+        <table class="table table-striped mt-4">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+					
+                </tr>
+            </thead>
+            <tbody id="book-list">
+                <!-- Rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
