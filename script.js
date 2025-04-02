@@ -4,11 +4,6 @@ document.getElementById('submit').addEventListener('click', function () {
     const author = document.getElementById('author').value;
     const isbn = document.getElementById('isbn').value;
 
-    if (title === '' || author === '' || isbn === '') {
-        alert('Please fill in all fields');
-        return;
-    }
-
     const bookList = document.getElementById('book-list');
     const row = document.createElement('tr');
 
@@ -31,5 +26,13 @@ document.getElementById('submit').addEventListener('click', function () {
 
 	
 });
+
+
+// Event delegation for deleting rows
+        document.getElementById('book-list').addEventListener('click', function(e) {
+            if (e.target.classList.contains('delete')) {
+                e.target.parentElement.parentElement.remove();
+            }
+        });
 
 	
